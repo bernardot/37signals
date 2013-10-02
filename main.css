@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.head {
+background-color: transparent;
+width: 100%;
+height: 60px;
+position: absolute;
+top: 10px;
+left: 0px;
+}
+
+.head ul li {
+float: right;
+font-family: arial;
+font-weight: 300;
+color: #3333cc;
+list-style: none;
+font-size: 12px;
+margin: 15px 20px 2px 10px; 
+}
+
+.head a {
+color: #3333cc;
+background-color: transparent;
+text-decoration: none;
+}
+
+.head a:hover {
+color: #00ccff;
+text-decoration: none;
+}
+
+#Friday {
+float: left;
+margin: 15px 30px 2px 60px;
+color: #C0C0C0;
+}
+
+#Signin {
+color: #00ccff;
+margin-right: 40px;
+}
+
+/* MIDDLE 
+
+Min-width doesn't work :(
+*/
+
+.logo {
+width: 800px;
+margin: auto;
+position: relative;
+top: 75px;
+text-align: center;
+}
+
+
+.text {
+text-align: center;
+font-size: 50px;
+font-weight: 500;
+width: 800px;
+postion: relative;
+padding-top: 100px;
+margin: auto
+
+}
+
+.text p2 {
+font-size: 19px;
+}
+
+.middle{
+width: 800px;
+height: 300px;
+text-align: center;
+margin: auto;
+position: relative;
+padding-left: 80px;
+padding-right: 80px;
+}
+
+.middle .card{
+border: 1px solid #e6e6e6;
+background-color: #fafafa;
+border-radius: 5px;
+text-align: center;
+float: left;
+width: 180px;
+height: 240px;
+margin: 20px;
+position: relative;
+}
+
+.middle .card img {
+width: 100px;
+margin-top: 20px;
+}
+
+.middle h1 {
+text-decoration: underline;
+color: blue;
+font-size: 25px;
+font-weight: 400;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+.middle p {
+color: #DF0101;
+margin-bottom: 15px;
+font-weight: 550;
+}
+
+.middle p2 {
+margin-top: 10px;
+}
+
+.asterisks {
+color: #f2f2f2;
+width: 100%;
+margin: auto;
+position: absolute;
+top: 625px;
+text-align: center;
+clear: both;
+font-size: 25px;
+}
