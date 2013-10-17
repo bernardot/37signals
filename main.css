@@ -82,7 +82,7 @@ width: 800px;
 postion: relative;
 padding-top: 100px;
 margin: auto
-
+color: black
 }
 
 .text p2 {
@@ -145,3 +145,26 @@ text-align: center;
 clear: both;
 font-size: 25px;
 }
+
+
+
+/* JQUERY styling
+*/
+
+.jq p {
+text-align: center;
+font-size: 42px;
+font-weight: 500;
+width: 800px;
+postion: relative;
+padding-top: 0px;
+margin: auto
+color: black
+}
+
+.jq p2 {
+font-size: 17px;
+line-height: 2px;
+}
+
+

@@ -5,11 +5,13 @@
 		<link type="text/css" rel="stylesheet" href="main.css"/>
 		<title>37signals: Web</title>
 		<link rel="shortcut icon" href="http://www.nicheoptimizer.com/wp-content/uploads/37logos.jpg">
+		<script src="./jquery.js"></script>
+		<script src="./37Signals.js"></script>
 	</head>
 	<body>
 		<div class="head">
 			<ul>
-				<li id="Wednesday"><a href="http://www.google.com" id="Signin">Sign in</a></li>
+				<li><a href="http://www.google.com" id="Signin">Sign in</a></li>
 				<li><a href="http://www.google.com">System status</a></li>
 				<li><a href="http://www.google.com">Follow us on Twitter</a></li>
 				<li><a href="http://www.google.com">Our story</a></li>
@@ -23,28 +25,46 @@
 
 		</div>
 		<div class="text">
-			<p>Making collaboration productive and<br>enjoyable for people every day.</p>
-			<p2>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</p2>
+			<span class="main">
+				<p>Making collaboration productive and<br>enjoyable for people every day.</p>
+				<p2>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</p2>
+			</span>
 
+			<span id="bc" class="jq" style="display:none">
+				<p><span style="color:blue;text-decoration:underline;">Basecamp</span> is the project management tool you wish you had for your last project.</p> 
+				<p2>Are you still managing projects with email? Are you still using Excel for your to-do lists? It's time to upgrade to Basecamp. Manage projects and collaborate with your team and clients the modern way.</p2>
+			</span>
+
+			<span id="hr" class="jq" style="display:none">
+				<p><span style="color:blue;text-decoration:underline;">Highrise</span> remembers the important things about people you'd normally forget.</p> 
+				<p2>Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise</p2>
+			</span>
+			
+			<span id="cf" class="jq" style="display:none">
+				<p>From near or far, <span style="color:blue;text-decoration:underline;">Campfire</span> helps teams work together over the web in real-time.</p> 
+				<p2>Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It's game changing. We couldn't run our business without Campfire.</p2>
+			</span>
 		</div>
 		<div class="middle">
-			<div class="card">
+			<div class="card" id="basecamp">
 				<img src="http://37signals.com/svn/images/basecamp-logo-for-fluid.png"/>
 				<h1>Basecamp</h1>
 				<p>Manage Projects</p>
 				<p2>Used by millions for<br>project management.</p2>
 			</div>
-			<div class="card">
+			<div class="card" id="high-rise">
 				<img src="http://37signals.com/svn/images/highrise-logo-for-fluid.png"/>
 				<h1>Highrise</h1>
 				<p>Manage Contacts</p>
 				<p2>Know the people you<br>do business with.</p2>
+				
 			</div>
-			<div class="card">
+			<div class="card" id="campfire">
 				<img src="http://37signals.com/svn/images/campfire-logo-for-fluid.png"/>
 				<h1>Campfire</h1>
 				<p>Work in Real-Time</p>
 				<p2>Group chat rooms for<br>your business.</p2>
+				
 			</div>
 
 		</div>
