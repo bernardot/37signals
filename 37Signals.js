@@ -9,9 +9,6 @@ $(document).ready( function() {
     $('#main').show();
 });
 
-});
-
-$(document).ready( function() { 
 
   $("#highrise").hover( function() {
     $('#main').hide();
@@ -21,10 +18,6 @@ $(document).ready( function() {
     $('#hr').hide();
     $('#main').show();
 });
-
-});
-
-$(document).ready( function() { 
 
   $("#campfire").hover( function() {
     $('#main').hide();
