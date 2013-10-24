@@ -1,20 +1,38 @@
 $(document).ready( function() { 
 
   $("#basecamp").hover( function() {
-    $('.main').hide();
+    $('#main').hide();
     $('#bc').show();
   },
    function () {
     $('#bc').hide();
-    $('.main').show();
+    $('#main').show();
 });
-    
-
-// remove main (change display to none) -- no p2 (assign class of p2) :(
-// find bc (change display to block)
-// add bc
-// mouseleave add main back in
-
 
 });
 
+$(document).ready( function() { 
+
+  $("#highrise").hover( function() {
+    $('#main').hide();
+    $('#hr').show();
+  },
+   function () {
+    $('#hr').hide();
+    $('#main').show();
+});
+
+});
+
+$(document).ready( function() { 
+
+  $("#campfire").hover( function() {
+    $('#main').hide();
+    $('#cf').show();
+  },
+   function () {
+    $('#cf').hide();
+    $('#main').show();
+});
+
+});

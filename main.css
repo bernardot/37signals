@@ -75,18 +75,19 @@ text-align: center;
 
 
 .text {
-text-align: center;
 font-size: 50px;
 font-weight: 500;
 width: 800px;
 postion: relative;
 padding-top: 100px;
-margin: auto
-color: black
+margin: auto;
+color: black;
+text-align: center;
 }
 
-.text p2 {
+.text h2 {
 font-size: 19px;
+line-height: 30px;
 }
 
 .middle{
@@ -95,8 +96,6 @@ height: 300px;
 text-align: center;
 margin: auto;
 position: relative;
-padding-left: 80px;
-padding-right: 80px;
 }
 
 .middle .card{
@@ -125,13 +124,17 @@ margin-top: 5px;
 margin-bottom: 10px;
 }
 
+#basecamp {
+margin-left: 80px;
+}
+
 .middle p {
 color: #DF0101;
 margin-bottom: 15px;
 font-weight: 550;
 }
 
-.middle p2 {
+.middle h2 {
 margin-top: 10px;
 }
 
@@ -157,14 +160,15 @@ font-size: 42px;
 font-weight: 500;
 width: 800px;
 postion: relative;
-padding-top: 0px;
 margin: auto
 color: black
+line-height: 0px;
 }
 
-.jq p2 {
+.jq h2 {
 font-size: 17px;
-line-height: 2px;
+line-height: 20px;
+margin-top: 10px;
 }
 
 
