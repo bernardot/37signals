@@ -149,7 +149,29 @@ clear: both;
 font-size: 25px;
 }
 
+/* ARROWS
+*/
 
+#right1 {
+width: 30%;
+position: absolute;
+top: -17%;
+right: -10%;
+}
+
+#right2 {
+width: 30%;
+position: absolute;
+top: -17%;
+right: -10%;
+}
+
+#left {
+width: 30%;
+position: absolute;
+top: -17%;
+left: -10%;
+}
 
 /* JQUERY styling
 */
